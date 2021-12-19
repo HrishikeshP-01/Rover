@@ -67,7 +67,7 @@ public class MapTile : MonoBehaviour
         isBeingRotated = true;
         Debug.Log("RMB");
         this.transform.Rotate(0f, 0f, 90.0f);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         isBeingRotated = false;
     }
 }
